@@ -150,19 +150,31 @@ img:hover {
   margin-top: var(--header-height);
 }
 
+.about-img {
+  background: #64ffda;
+  height: fit-content;
+  /* display: inline; */
+  width: 270px;
+}
+
 .about-img img {
-  max-width: 50%;
-  width: 400px;
+  max-width: 100%;
+  /* width: 400px; */
   height: auto;
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(1);
   box-shadow: 6px 6px var(--main-color);
   border-radius: 4px;
 }
 
-
 img:hover {
   opacity: 1;
   box-shadow: 6px 6px var(--text-color);
+  mix-blend-mode: unset;
+  filter: unset;
+  transition: opacity 1s linear;
+  will-change: opacity;
 }
 
 .grid {
