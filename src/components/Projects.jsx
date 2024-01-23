@@ -71,7 +71,7 @@ const Projects = () => {
                   <div className="d-flex justify-content-around d-grid gap-3">
                     <p>React.JS</p>
                     <p>JavaScript</p>
-                    <p>CSS</p>
+                    {/* <p>CSS</p> */}
                     <p>FireBase</p>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Projects = () => {
                   <div className="d-flex justify-content-around d-grid gap-3">
                     <p>React.JS</p>
                     <p>JavaScript</p>
-                    <p>CSS</p>
+                    {/* <p>CSS</p> */}
                     <p>RapidApi</p>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ const Projects = () => {
                   <div className="d-flex justify-content-around d-grid gap-3">
                     <p>React.JS</p>
                     <p>JavaScript</p>
-                    <p>CSS</p>
+                    {/* <p>CSS</p> */}
                     <p>RapidApi</p>
                   </div>
                 </div>
