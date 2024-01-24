@@ -311,6 +311,13 @@ nav .btn {
     opacity: 1;
   }
 }
+@media (min-width: 0px) and (max-width: 425px) {
+  .card {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (min-width: 0px) and (max-width: 575.98px) {
   /* Your styles for extra small devices go here */
   #home h1 {

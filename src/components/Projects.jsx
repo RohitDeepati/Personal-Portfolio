@@ -13,7 +13,7 @@ const Projects = () => {
 
         <div className="container px-3">
           <div className="row text-start  p-2 justify-content-evenly">
-            <div className="col-xs-8 col-sm-8 col-md-8 col-lg-3 p-2 custom-tablet-col">
+            <div className="col-xs-8 col-sm-8 col-md-8 col-lg-3 p-2  custom-tablet-col">
               <div className="card text-light">
                 <div className="card-body">
                   <div className="h1 mb-3">
