@@ -1,6 +1,6 @@
 // Foodzone App links
-export const foodzoneGitLink = "https://github.com/RohitDeepati/MovieHub";
-export const foodzoneProjectLink = "https://moviehub003.netlify.app/";
+export const foodzoneGitLink = "https://github.com/RohitDeepati/FoodOrderApp";
+export const foodzoneProjectLink = "https://foodzoneapp.netlify.app/";
 
 // weatherApp links
 export const weatherAppGitLink =

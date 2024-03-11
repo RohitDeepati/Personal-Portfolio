@@ -18,6 +18,7 @@ import {
   movieHubAppGitLink,
   movieHubAppProjectLink,
   shoppingzoneGitlink,
+  shoppingzoneProjectLink,
   weatherAppGitLink,
   weatherAppProjectLink,
 } from "../assets/Links/ProjectLinks";
@@ -26,6 +27,7 @@ import {
   hangmangameDesc,
   homebudgetAppDesc,
   moviehubDesc,
+  shoppingZoneAppDesc,
   weatherAppDesc,
 } from "../utilities/ProjectsDesc";
 
@@ -78,8 +80,8 @@ export const ProjectsCard = () => {
               svgIcon={shoppingzoneIcon}
               githubLink={shoppingzoneGitlink}
               projectName="Shopping Zone"
-              projectLink={homebudgetAppProjectLink}
-              projectDescription={homebudgetAppDesc}
+              projectLink={shoppingzoneProjectLink}
+              projectDescription={shoppingZoneAppDesc}
               techUsed1="React.js"
               techUsed2="React-Router-Dom"
               techUsed3="Tailwind"
