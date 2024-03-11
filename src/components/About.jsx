@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/WhatsApp Image 2023-08-08 at 11.57.18.jpeg";
+import avatar from "../assets/images/WhatsApp Image 2023-08-08 at 11.57.18.jpeg";
 
 const About = () => {
   return (
@@ -28,29 +28,42 @@ const About = () => {
                 <div className="col-6 ">
                   <ul className="list-unstyled">
                     <li className="p-1">
-                      <span>▹</span>React.js
+                      <span>▹</span>Typescript
                     </li>
+
                     <li className="p-1">
                       <span>▹</span>Javascript
                     </li>
                     <li className="p-1">
-                      <span>▹</span>HTML
+                      <span>▹</span>CSS
                     </li>
                     <li className="p-1">
                       <span>▹</span>Bootstrap
+                    </li>
+                    <li className="p-1">
+                      <span>▹</span>Python
+                    </li>
+                    <li className="p-1">
+                      <span>▹</span>SQL
                     </li>
                   </ul>
                 </div>
                 <div className="col-6">
                   <ul className="list-unstyled">
                     <li className="p-1">
-                      <span>▹</span>CSS
+                      <span>▹</span>React.js
                     </li>
                     <li className="p-1">
-                      <span>▹</span>Python
+                      <span>▹</span>HTML
                     </li>
                     <li className="p-1">
-                      <span>▹</span>FastAPI
+                      <span>▹</span>Tailwind CSS
+                    </li>
+                    <li className="p-1">
+                      <span>▹</span>React Router
+                    </li>
+                    <li className="p-1">
+                      <span>▹</span>Fast API
                     </li>
                     <li className="p-1">
                       <span>▹</span>Git

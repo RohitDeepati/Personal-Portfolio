@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -6,14 +7,12 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const closeMobileMenu = () => {
-    // Close the mobile menu programmatically
     if (isMobileMenuOpen) {
       setIsMobileMenuOpen(false);
     }
   };
 
   const toggleMobileMenu = () => {
-    // Toggle the mobile menu state
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
