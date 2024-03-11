@@ -224,7 +224,7 @@ export const ProjectsMore = () => {
                 <ProjectDetails
                   svgIcon={linkedinIcon}
                   githubLink={linkdncloneAppGitLink}
-                  projectName="Linkedin Clone"
+                  projectName="Linkedin-Homepage-Clone"
                   projectLink={linkdncloneAppProjectLink}
                   projectDescription={linkedinCloneAppDesc}
                   techUsed1="React.js"
