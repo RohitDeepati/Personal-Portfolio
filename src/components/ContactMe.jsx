@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <div>
       <section className="text-light pt-5 px-4 mt-5" id="contact">
-        <div className="container p-5">
+        <div className="container p-0 p-lg-5">
           <h2>
             <span className="fa">04. </span> CONTACT
             <span>

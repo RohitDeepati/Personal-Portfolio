@@ -1,10 +1,10 @@
 import React from "react";
-import { EducationDetails } from "./utilities/EducationDetails";
+import { EducationDetails } from "../utilities/EducationDetails";
 
 const Education = () => {
   return (
     <section className="py-5 px-4" id="education">
-      <div className="container p-5">
+      <div className="container p-0 p-lg-5">
         <h2 className="p-4">
           <span className="fa">03. </span> EDUCATION
           <span>

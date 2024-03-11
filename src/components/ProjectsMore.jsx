@@ -1,5 +1,4 @@
 import {
-  ShoppingzoneIcon,
   budgetIcon,
   calculatorIcon,
   clockIcon,
@@ -10,6 +9,7 @@ import {
   linkedinIcon,
   memorygameIcon,
   moviehubIcon,
+  shoppingzoneIcon,
   todoIcon,
   tttIcon,
   weatherIcon,
@@ -51,8 +51,8 @@ import {
   ytCloneProjectLink,
 } from "../assets/Links/ProjectLinks";
 // import { projects } from "./ProjectsAPI/Projects-data";
-import HeaderBar from "./utilities/HeaderBar";
-import { ProjectDetails } from "./utilities/ProjectDetails";
+import HeaderBar from "../utilities/HeaderBar";
+import { ProjectDetails } from "../utilities/ProjectDetails";
 import {
   calculatorAppDesc,
   clockAppDesc,
@@ -70,7 +70,7 @@ import {
   weatherAppDesc,
   whacamoleAppDesc,
   ytCloneDesc,
-} from "./utilities/ProjectsDesc";
+} from "../utilities/ProjectsDesc";
 
 export const ProjectsMore = () => {
   return (
@@ -78,9 +78,9 @@ export const ProjectsMore = () => {
       <HeaderBar />
 
       <section className="py-5 px-4 " id="projects">
-        <div className="container p-5">
+        <div className="container p-0 p-lg-5">
           <div className="container px-3">
-            <h2 className="py-4 mt-2 text-center">
+            <h2 className="py-5 mt-2 text-center">
               More Things I’ve Built
               <span>
                 <hr />
@@ -233,7 +233,7 @@ export const ProjectsMore = () => {
                 />
                 {/* shopping zone */}
                 <ProjectDetails
-                  svgIcon={ShoppingzoneIcon}
+                  svgIcon={shoppingzoneIcon}
                   githubLink={shoppingzoneGitlink}
                   projectName="Shopping Zone"
                   projectLink={shoppingzoneProjectLink}

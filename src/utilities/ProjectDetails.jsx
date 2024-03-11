@@ -10,9 +10,9 @@ export const ProjectDetails = ({
 }) => {
   return (
     <div className="col-xs-8 col-sm-6  col-md-8 col-lg-3 m-2 p-2 custom-tablet-col">
-      <div className="card text-light  box " s>
-        <div className="card-body">
-          <div className="h1 mb-3">
+      <div className="card text-light  box ">
+        <div className="card-body p-2">
+          <div className="h1 mb-3 p-2">
             <div className="d-flex justify-content-between">
               {svgIcon}
               <a

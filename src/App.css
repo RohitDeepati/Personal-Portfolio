@@ -272,7 +272,7 @@ nav .btn {
   /* background-color: rgb(238, 238, 238); */
   background-color: #0b0b13;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   margin: auto;
   margin-top: 25px;
@@ -346,6 +346,9 @@ nav .btn {
     padding: 0;
     display: flex;
     justify-content: center;
+  }
+  .custom-container {
+    padding: none;
   }
 }
 @media (min-width: 0px) and (max-width: 575.98px) {

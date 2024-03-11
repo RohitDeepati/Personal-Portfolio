@@ -72,18 +72,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* <div className="col-md-6 d-flex justify-content-center align-items-center"> */}
-              {/* <p className="p-3 contact-me">
-                <a
-                  className="text-decoration-none fs-4 btn btn-md button"
-                  href="mailto:deepatirohit@gmail.com"
-                  target="_blank"
-                >
-                  Contact me
-                </a>
-              </p> */}
-              {/* </div> */}
-
               {/* For Large Screens */}
               <div className="col-md-6 d-none d-md-block">
                 <p className="p-3 contact-me">
@@ -112,7 +100,12 @@ const About = () => {
             </div>
 
             <div className="col-md-6 d-flex justify-content-center align-items-center">
-              <img className="img img-fluid  mx-auto" src={avatar} alt="" />
+              <img
+                className="img img-fluid mx-auto"
+                src={avatar}
+                alt=""
+                style={{ maxWidth: "100%" }}
+              />
             </div>
           </div>
         </div>
