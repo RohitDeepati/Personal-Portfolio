@@ -9,16 +9,17 @@ export const ProjectDetails = ({
   techUsed3,
 }) => {
   return (
-    <div className="col-xs-8 col-sm-6  col-md-8 col-lg-3 m-2 p-2 custom-tablet-col">
-      <div className="card text-light  box ">
-        <div className="card-body p-2">
-          <div className="h1 mb-3 p-2">
-            <div className="d-flex justify-content-between">
+    <div className="col-xs-8 col-sm-6 col-md-4 col-lg-3 m-2 p-2  custom-tablet-col">
+      <div className="card text-light  box   p-2" style={{ height: "90%" }}>
+        <div className="card-body  p-2 ">
+          <div className="h1  p-2">
+            <div className="d-flex justify-content-between  align-items-center">
               {svgIcon}
               <a
                 className="icon"
                 href={githubLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Code Link"
               >
                 <svg
@@ -38,16 +39,17 @@ export const ProjectDetails = ({
             className="text-decoration-none"
             href={projectLink}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h3 className="card-title mb-3" title="External Link">
               {projectName}
             </h3>
           </a>
           <p className="card-text">{projectDescription}</p>
-          <div className="d-flex justify-content-around d-grid gap-3">
-            <p>{techUsed1}</p>
-            <p>{techUsed2}</p>
-            <p>{techUsed3}</p>
+          <div className="d-flex justify-content-around flex-wrap">
+            <p className="techSkils">{techUsed1}</p>
+            <p className="techSkils">{techUsed2}</p>
+            <p className="techSkils">{techUsed3}</p>
           </div>
         </div>
       </div>

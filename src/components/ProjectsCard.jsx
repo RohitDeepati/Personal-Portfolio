@@ -1,14 +1,23 @@
-import { Link } from "react-router-dom";
 import { ProjectDetails } from "../utilities/ProjectDetails";
 import {
   budgetIcon,
+  calculatorIcon,
+  expensetrackerIcon,
   foodIcon,
   hangmanIcon,
   moviehubIcon,
   shoppingzoneIcon,
+  todoIcon,
+  tttIcon,
   weatherIcon,
+  whacIcon,
+  ytIcone,
 } from "../assets/Icons/SvgIcons";
 import {
+  calculatorAppGitLink,
+  calculatorProjectLink,
+  expensetrackerAppGitLink,
+  expensetrackerAppProjectLink,
   foodzoneGitLink,
   foodzoneProjectLink,
   hangmanGitlink,
@@ -19,19 +28,39 @@ import {
   movieHubAppProjectLink,
   shoppingzoneGitlink,
   shoppingzoneProjectLink,
+  todoAppGitLink,
+  todoProjectLink,
+  tttAppGitLink,
+  tttAppProjectLink,
   weatherAppGitLink,
   weatherAppProjectLink,
+  whacamoleAppGitLink,
+  whacamoleProjectLink,
+  ytCloneGitlink,
+  ytCloneProjectLink,
 } from "../assets/Links/ProjectLinks";
 import {
+  calculatorAppDesc,
+  expensetrackerAppDesc,
   foodZoneAppDesc,
   hangmangameDesc,
   homebudgetAppDesc,
   moviehubDesc,
   shoppingZoneAppDesc,
+  tictactoeAppdesc,
+  todolistAppDesc,
   weatherAppDesc,
+  whacamoleAppDesc,
+  ytCloneDesc,
 } from "../utilities/ProjectsDesc";
+import { useState } from "react";
 
 export const ProjectsCard = () => {
+  const [showMorePrjoects, setShowMoreProjects] = useState(false);
+
+  const toggleProjects = () => {
+    setShowMoreProjects(!showMorePrjoects);
+  };
   return (
     <section className="py-5 px-4" id="projects">
       <div className="container p-0 p-lg-5">
@@ -71,9 +100,9 @@ export const ProjectsCard = () => {
               projectName="Hangman Word Game"
               projectLink={hangmanProjectlink}
               projectDescription={hangmangameDesc}
-              techUsed1="Typescript"
-              techUsed2="React.js"
-              techUsed3="CSS"
+              techUsed1="React-Typescript"
+              // techUsed2="React.js"
+              techUsed3="TailwindCSS"
             />
             {/* shopping zone */}
             <ProjectDetails
@@ -109,27 +138,84 @@ export const ProjectsCard = () => {
               techUsed2="JavaScript"
               techUsed3="RapidAPI"
             />
+            {showMorePrjoects && (
+              <>
+                <ProjectDetails
+                  svgIcon={ytIcone}
+                  githubLink={ytCloneGitlink}
+                  projectName="Youtube Homepage Clone"
+                  projectLink={ytCloneProjectLink}
+                  projectDescription={ytCloneDesc}
+                  techUsed1="React-Typescript"
+                  // techUsed2="Contex API"
+                  techUsed3="Tailwind CSS"
+                />
+                <ProjectDetails
+                  svgIcon={expensetrackerIcon}
+                  githubLink={expensetrackerAppGitLink}
+                  projectName="Expense Tracker"
+                  projectLink={expensetrackerAppProjectLink}
+                  projectDescription={expensetrackerAppDesc}
+                  techUsed1="React.js"
+                  techUsed2="JavaScript"
+                  techUsed3="ContexAPI"
+                />
+                <ProjectDetails
+                  svgIcon={whacIcon}
+                  githubLink={whacamoleAppGitLink}
+                  projectName="Whac-a-Mole"
+                  projectLink={whacamoleProjectLink}
+                  projectDescription={whacamoleAppDesc}
+                  techUsed1="React.js"
+                  techUsed2="JavaScript"
+                  techUsed3="Firebase"
+                />
+                {/* tic-tac-toe app */}
+                <ProjectDetails
+                  svgIcon={tttIcon}
+                  githubLink={tttAppGitLink}
+                  projectName="Tic-Tac-Toe"
+                  projectLink={tttAppProjectLink}
+                  projectDescription={tictactoeAppdesc}
+                  techUsed1="Resct.js"
+                  techUsed2="JavaScript"
+                  techUsed3="CSS"
+                />
+                {/* todolist app */}
+                <ProjectDetails
+                  svgIcon={todoIcon}
+                  githubLink={todoAppGitLink}
+                  projectName="TodoList App"
+                  projectLink={todoProjectLink}
+                  projectDescription={todolistAppDesc}
+                  techUsed1="JavaScript"
+                  techUsed2="HTML"
+                  techUsed3="CSS"
+                />
+                {/* calculator */}
+                <ProjectDetails
+                  svgIcon={calculatorIcon}
+                  githubLink={calculatorAppGitLink}
+                  projectName="Calculator"
+                  projectLink={calculatorProjectLink}
+                  projectDescription={calculatorAppDesc}
+                  techUsed1="JavaScript"
+                  techUsed2="HTML"
+                  techUsed3="CSS"
+                />
+              </>
+            )}
           </div>
         </div>
         <div className="container text-center">
-          <Link
-            to="/more-projects"
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-          >
-            <p className="p-3 contact-me">
-              <a
-                className="text-decoration-none fs-4 btn btn-md btn button"
-                // href="https://github.com/RohitDeepati?tab=repositories"
-                target="_blank"
-              >
-                View More
-              </a>
-            </p>
-          </Link>
+          <p className="p-3 contact-me">
+            <button
+              className="text-decoration-none fs-4 btn btn-md btn button"
+              onClick={toggleProjects}
+            >
+              {showMorePrjoects ? "View Less" : "View More"}
+            </button>
+          </p>
         </div>
       </div>
     </section>
