@@ -28,14 +28,14 @@ const About = () => {
                 <div className="col-6 ">
                   <ul className="list-unstyled">
                     <li className="p-1">
+                      <span>▹</span>React.js
+                    </li>
+                    <li className="p-1">
                       <span>▹</span>Typescript
                     </li>
 
                     <li className="p-1">
-                      <span>▹</span>Javascript
-                    </li>
-                    <li className="p-1">
-                      <span>▹</span>CSS
+                      <span>▹</span>HTML
                     </li>
                     <li className="p-1">
                       <span>▹</span>Bootstrap
@@ -51,16 +51,16 @@ const About = () => {
                 <div className="col-6">
                   <ul className="list-unstyled">
                     <li className="p-1">
-                      <span>▹</span>React.js
+                      <span>▹</span>Redux
                     </li>
                     <li className="p-1">
-                      <span>▹</span>HTML
+                      <span>▹</span>Javascript
+                    </li>
+                    <li className="p-1">
+                      <span>▹</span>CSS
                     </li>
                     <li className="p-1">
                       <span>▹</span>Tailwind CSS
-                    </li>
-                    <li className="p-1">
-                      <span>▹</span>React Router
                     </li>
                     <li className="p-1">
                       <span>▹</span>Fast API

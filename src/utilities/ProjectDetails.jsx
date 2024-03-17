@@ -47,9 +47,9 @@ export const ProjectDetails = ({
           </a>
           <p className="card-text">{projectDescription}</p>
           <div className="d-flex justify-content-around flex-wrap">
-            <p className="techSkils">{techUsed1}</p>
-            <p className="techSkils">{techUsed2}</p>
-            <p className="techSkils">{techUsed3}</p>
+            <p>{techUsed1}</p>
+            <p>{techUsed2}</p>
+            <p>{techUsed3}</p>
           </div>
         </div>
       </div>

@@ -52,12 +52,10 @@ h2 {
   border: 1px solid #51ceb6 !important;
   border-radius: 5px;
 }
-.techSkils:hover {
-  color: #51ceb6;
-  text-decoration: underline !important;
-  text-decoration-color: #64ffda !important;
-  cursor: pointer !important;
+.resumeBtn {
+  border: 2px solid #51ceb6 !important;
 }
+
 /* home styles */
 #home h1 {
   font-size: 8rem;
@@ -198,10 +196,11 @@ nav .btn {
 #projects .card {
   background-color: var(--card-bg);
   cursor: pointer;
+  animation: all 3s ease-in !important;
 }
 
 #projects .card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.1);
 }
 
 #projects .card-title {
@@ -209,10 +208,10 @@ nav .btn {
   font-size: 20px;
   text-align: start;
 }
-#projects .card-title:hover {
+/* #projects .card-title:hover {
   color: #51ceb6;
   text-decoration: underline;
-}
+} */
 
 #projects .show {
   color: #128c7e;
@@ -241,12 +240,12 @@ nav .btn {
   color: #8892b0;
 }
 
-#education .card-title:hover {
+/* #education .card-title:hover {
   color: #51ceb6 !important;
   text-decoration: underline !important;
   text-decoration-color: #64ffda !important;
   cursor: pointer !important;
-}
+} */
 
 #education .card:hover {
   transform: translateY(-5px);

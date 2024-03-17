@@ -17,7 +17,7 @@ const Education = () => {
             <EducationDetails
               year="2019-2022"
               collegeDegree="Bachelor's Degree in Engineering Technology."
-              collegeTitle="Godavari Institute of Engineering and Technology - Rajahmundry."
+              collegeTitle="Jawaharlal Nehru Technological University, Kakinada."
             />
             <EducationDetails
               year="2016-2019"
@@ -27,7 +27,7 @@ const Education = () => {
             <EducationDetails
               year="2015-2016"
               collegeDegree="10th"
-              collegeTitle="SOBHANA(E.M)SCHOOL - RAZOLE"
+              collegeTitle="SOBHANA (E.M) SCHOOL - Razole."
             />
           </div>
         </div>

@@ -83,7 +83,7 @@ const Navbar = () => {
                 <a
                   href="https://drive.google.com/file/d/1P8Be0zvPgqFeZMNMiCbjHWQz0D8wZqd3/view?usp=sharing"
                   target="_blank"
-                  className="text-white border-0 btn"
+                  className="text-white border-0 btn resumeBtn"
                 >
                   Resume
                 </a>
