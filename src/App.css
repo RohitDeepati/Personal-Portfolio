@@ -208,10 +208,10 @@ nav .btn {
   font-size: 20px;
   text-align: start;
 }
-/* #projects .card-title:hover {
+#projects .card-title:hover {
   color: #51ceb6;
   text-decoration: underline;
-} */
+}
 
 #projects .show {
   color: #128c7e;

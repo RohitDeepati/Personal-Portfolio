@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item mx-2 ">
                 <a
-                  href="https://drive.google.com/file/d/1P8Be0zvPgqFeZMNMiCbjHWQz0D8wZqd3/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1SgAfXFw2YiUxrECtUgw4HXCbO7laPONN/view?usp=sharing"
                   target="_blank"
                   className="text-white border-0 btn resumeBtn"
                 >
