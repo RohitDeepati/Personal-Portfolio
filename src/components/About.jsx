@@ -28,6 +28,9 @@ const About = () => {
                 <div className="col-6 ">
                   <ul className="list-unstyled">
                     <li className="p-1">
+                      <span>▹</span>Go
+                    </li>
+                    <li className="p-1">
                       <span>▹</span>React.js
                     </li>
                     <li className="p-1">
@@ -40,9 +43,7 @@ const About = () => {
                     <li className="p-1">
                       <span>▹</span>Bootstrap
                     </li>
-                    <li className="p-1">
-                      <span>▹</span>Python
-                    </li>
+
                     <li className="p-1">
                       <span>▹</span>SQL
                     </li>
@@ -61,9 +62,6 @@ const About = () => {
                     </li>
                     <li className="p-1">
                       <span>▹</span>Tailwind CSS
-                    </li>
-                    <li className="p-1">
-                      <span>▹</span>Fast API
                     </li>
                     <li className="p-1">
                       <span>▹</span>Git
